@@ -1,0 +1,12 @@
+<arquillian xmlns="http://jboss.org/schema/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+
+    <container qualifier="jboss" default="true">
+        <configuration>
+            <property name="jbossHome">/Applications/dev/jboss-7.0.0.Beta3</property>
+        </configuration>
+        <protocol type="jmx-as7">
+            <property name="executionType">REMOTE</property>
+        </protocol>
+    </container>
+</arquillian>

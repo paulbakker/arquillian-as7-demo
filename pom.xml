@@ -60,21 +60,21 @@
                 </dependency>
 
             </dependencies>
-            <build>
-                <plugins>
-                    <plugin>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <configuration>
-                            <systemProperties>
-                                <property>
-                                    <name>jboss.home</name>
-                                    <value>/Applications/dev/jboss-7.0.0.Beta3</value>
-                                </property>
-                            </systemProperties>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
+            <!--<build>-->
+                <!--<plugins>-->
+                    <!--<plugin>-->
+                        <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                        <!--<configuration>-->
+                            <!--<systemProperties>-->
+                                <!--<property>-->
+                                    <!--<name>jboss.home</name>-->
+                                    <!--<value>/Applications/dev/jboss-7.0.0.Beta3</value>-->
+                                <!--</property>-->
+                            <!--</systemProperties>-->
+                        <!--</configuration>-->
+                    <!--</plugin>-->
+                <!--</plugins>-->
+            <!--</build>-->
         </profile>
     </profiles>
 </project>
